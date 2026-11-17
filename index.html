@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cổng Thông Tin Cộng Đồng - Tổ Dân Phố 2, Phường An Tường</title>
+    <style>
+        :root {
+            --primary: #c92a2a;
+            --primary-dark: #a61e1e;
+            --secondary: #1971c2;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #212529;
+            --text-muted: #6c757d;
+            --border: #dee2e6;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+        .header-title { font-size: 1.8rem; font-weight: 800; letter-spacing: 0.5px; }
+        .header-subtitle { font-size: 1.1rem; opacity: 0.95; margin-top: 0.5rem; }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .intro-banner {
+            background: white;
+            border-left: 5px solid var(--secondary);
+            padding: 1.25rem 1.5rem;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+        .post-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            transition: transform 0.2s;
+        }
+        .post-card:hover { transform: translateY(-2px); }
+        .post-badge {
+            display: inline-block;
+            background: #e7f5ff;
+            color: #1971c2;
+            padding: 0.25rem 0.65rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .post-title { font-size: 1.3rem; margin-bottom: 0.4rem; color: #1864ab; }
+        .post-meta { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; }
+        .post-summary { font-size: 1rem; margin-bottom: 0.75rem; color: #343a40; }
+        .post-body { font-size: 0.95rem; color: #495057; white-space: pre-line; border-top: 1px dashed var(--border); padding-top: 0.75rem; }
+        .no-post { text-align: center; padding: 3rem; color: var(--text-muted); font-style: italic; }
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-title">CỔNG THÔNG TIN ĐIỆN TỬ CỘNG ĐỒNG</div>
+        <div class="header-subtitle">TỔ DÂN PHỐ 2 – PHƯỜNG AN TƯỜNG – TỈNH TUYÊN QUANG</div>
+    </header>
+
+    <main class="container">
+        <section class="intro-banner">
+            <p><strong>Kính chào bà con nhân dân và quý vị độc giả!</strong></p>
+            <p>Đây là kênh thông tin công khai chính thức của Tổ dân phố 2, phường An Tường. Mọi thông báo, kế hoạch và tin tức cộng đồng tại đây đều đã qua thẩm duyệt chính thức của Chi ủy và Ban Công tác Mặt trận.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">📢 THÔNG BÁO & VĂN BẢN ĐÃ PHÊ DUYỆT LƯU HÀNH</h2>
+            
+        <div class="no-post">
+            <p>Hiện chưa có thông báo hoặc văn bản công khai mới nào được phê duyệt lưu hành.</p>
+            <p style="font-size: 0.85rem; margin-top: 0.5rem; color: #888;">Các thông báo sau khi được Bí thư Chi bộ phê chuẩn trên Control Hub sẽ tự động hiển thị tại đây.</p>
+        </div>
+        
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tổ dân phố 2, phường An Tường, tỉnh Tuyên Quang. Tất cả các quyền được bảo lưu.</p>
+        <p>Hệ thống hỗ trợ bởi TDP2 AI | Xuất bản tự động an toàn không lưu dữ liệu nội bộ.</p>
+    </footer>
+</body>
+</html>
